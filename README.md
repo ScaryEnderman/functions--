@@ -62,11 +62,29 @@ data.r(s);
 data.s(s1,s2);
 data.d(s);
 
+mod.leave();
+mod.tip(s);
+mod.log(s);
+mod.screen(s);
+mod.resetTex();
+mod.rename(s,s);
+mod.cam(i);
+mod.speed(d);
+mod.guiBlocks(s);
+mod.terrain(s);
+mod.items(s);
+mod.overrideTex(s,s);
+mod.level(s,s,s,i);
+
 server.join(adr,port);
 server.chat(s);
 server.adr();
 server.port();
 server.players();
 server.names();
+
+add.item(i,s,i,s,i);
+add.food(i,s,i,i,s,i);
+add.block(i,s,obj,obj,obj,obj,);
 
 ```
