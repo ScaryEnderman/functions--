@@ -3,7 +3,7 @@ functions++
 
 A Mod for faster MCPE Mod making and also adds a few handy functions.
 
-#Usage:
+#Download (copy-paste):
 
 Copy this into your script and you are ready to go!
 ``` javascript
@@ -22,3 +22,8 @@ eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a
 //custom added functions
 
 eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('5 m(a){u(6 i=0;i<q;i++){6 b=p.l(i);d(b==a){4 7}9{4 8}}}5 w(a,b){d(e(3.f(a),3.g(a)-2,3.h(a))==b){4 7}9{4 8}}5 n(a){d(e(3.f(a),3.g(a)-2,3.h(a))==0){4 7}9{4 8}}5 o(a,b){3.j(a,3.k(a)-b)}5 r(a,b){3.j(a,3.k(a)+b)}5 s(a){6 b=i.t(a,0,7);6 c=b.v(".")[1];4 c}',33,33,'|||Entity|return|function|var|true|false|else||||if|tile|getX|getY|getZ||setHealth|getHealth|invSlot|hasItem|isInAir|hurt||36|heal|clearName|name|for|split|staysOn'.split('|'),0,{}))
+
+
+```
+
+#Usage:
