@@ -31,35 +31,35 @@ eval(function(p,a,c,k,e,r){e=function(c){return c.toString(a)};if(!''.replace(/^
 
 msg(s);
 pr(s);
-give(id,amt,dmg);
+give(i,i,i);
 pd();
 pX();
 pY()
 pZ();
 cItem();
-tile(x,y,z);
-place(x,y,z,id,dmg);
-pos(ent,x,y,z);
-posR(ent,x,y,z);
+tile(i,i,i);
+place(i,i,i,i,i);
+pos(ent,i,i,i);
+posR(ent,i,i,i);
 night(b);
-ride(ent1,ent2);
+ride(ent,ent);
 player();
 level();
 pitch(ent);
 yaw(ent);
-exp(x,y,z,r);
-velX(ent,amt);
-velY(ent,amt);
-velZ(ent,amt);
-rot(ent,y,p);
-mobSkin(ent,tex);
-spawn(x,y,z,type,tex);
-chicken(x,y,z);
-cow(x,y,z);
-zombiePig(x,y,z);
+exp(i,i,i,d);
+velX(ent,d);
+velY(ent,d);
+velZ(ent,d);
+rot(ent,d,d);
+mobSkin(ent,s);
+spawn(i,i,i,i,s);
+chicken(i,i,i);
+cow(i,i,i);
+zombiePig(i,i,i);
 
 data.r(s);
-data.s(s1,s2);
+data.s(s,s);
 data.d(s);
 
 mod.leave();
@@ -76,7 +76,7 @@ mod.items(s);
 mod.overrideTex(s,s);
 mod.level(s,s,s,i);
 
-server.join(adr,port);
+server.join(s,i);
 server.chat(s);
 server.adr();
 server.port();
