@@ -3,7 +3,9 @@ functions++
 
 A Mod for faster MCPE Mod making and also adds a few handy functions.
 
-Usage:
+#Usage:
+
+Copy this into your script and you are ready to go!
 ``` javascript
 
 eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('0 t(s){k(s)}0 n(s){5(s)}0 h(i,a,d){R(i,a,d)}0 2(){3()}0 4(){1 6()}0 7(){1 8()}0 9(){1 c()}0 e(){1 f()}0 g(x,y,z){1 l(x,y,z)}0 m(x,y,z,a,b){o(x,y,z,a,b)}0 q(a,x,y,z){r(a,x,y,z)}0 12(a,x,y,z){u(a,x,y,z)}0 v(b){w(b)}0 A(a,b){B(a,b)}0 C(){1 D()}0 E(){1 F()}0 G(a){1 H(a)}0 I(a){1 J(a)}0 K(a,b){L(a,b)}0 M(a,b){N(a,b)}0 O(a,b){P(a,b)}0 Q(a,y,p){S(a,y,p)}0 T(a,b){U(a,b)}0 V(x,y,z,a,b){W(x,y,z,a,b)}0 X(x,y,z){Y(x,y,z)}0 Z(x,y,z){10(x,y,z)}0 11(x,y,z){j(x,y,z)}',62,65,'function|return|pd|preventDefault|pX|print|getPlayerX|pY|getPlayerY|pZ|||getPlayerZ||cItem|getCarriedItem|tile|give||spawnPigZombie|clientMessage|getTile|place|pr|setTile||pos|setPosition||msg|setPositionRelative|night|setNightMode||||ride|rideAnimal|player|getPlayerEnt|level|getLevel|pitch|getPitch|yaw|getYaw|velX|setVelX|velY|setVelY|velZ|setVelZ|rot|addItemInventory|setRot|mobSkin|bl_setMobSkin|spawn|bl_spawnMob|chicken|spawnChicken|cow|spawnCow|zombiePig|posR'.split('|'),0,{}))
